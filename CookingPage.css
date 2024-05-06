@@ -1,0 +1,208 @@
+html,body,h1,h2,p,a {
+    padding:0;
+    margin:0;
+    border:0;
+    font:inherit;
+    font-size:100%;
+}
+
+body {
+    background-color: black;
+
+}
+#topContainer {
+    background-image: url("https://images.pexels.com/photos/3952047/pexels-photo-3952047.jpeg?crop=entropy&cs=srgb&dl=green-vegetables-on-brown-wooden-chopping-board-3952047.jpg&fit=crop&fm=jpg&h=1281&w=1920");   
+    min-height:100vh;
+    background-position:center;
+    background-size:cover;
+    padding:0;
+    position:relative;
+    background-repeat: no-repeat;
+}
+
+#topContainer a {
+    color:white;
+    text-decoration: none;
+    font-family:sans-serif;
+    
+}
+
+#topContainer a:first-child {
+    margin:20px;
+    float:left;
+    font-size: 15px;
+}
+    
+#topContainer a:nth-child(2) {
+    margin:20px;
+    float:right;
+    font-size: 12px;
+    text-shadow: 
+    -.1px -.1px 0 #000,  
+    .1px -.1px 0 #000,
+    -.1px .1px 0 #000,
+    .1px .1px 0 #000;
+    
+}
+
+#topContainer a:nth-child(3) {
+    font-size: 60px;
+    font-style:bold;
+    padding-top: 200px;
+    padding-right: 0;
+    padding-left:0;
+    border-bottom:white solid 1px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#topContainer a:last-child {
+    font-size: 20px;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.line {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 95%;
+    margin-left:20px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+#breadContainer {
+    background-color: black;
+    height:300px;
+    width:auto;
+    position:absolute;
+    top:700px;
+    display:flex;
+    flex-direction:column;  
+    flex-wrap: wrap;
+       
+}
+
+#breadContainer img {
+    height:100%;
+    width:auto;
+    display:flex;
+   
+    
+}
+
+h1:nth-child(2) {
+    color:white;
+    font-family: Helvetica,san-serif;
+    font-size: 25px;
+    font-style: bold;
+    margin-right: 30px;
+    padding-top: 25px;
+    text-decoration: none;
+    display:flex;
+   
+} 
+
+h2:last-child {
+    color:white;
+    font-size: 15px;
+    font-style:unset;
+    padding-top:10px;
+    padding-right: 10px;
+    font-family: Helvetica,san-serif;
+    text-decoration: none;
+    display:flex;
+    
+}
+
+#pineappleContainer {
+   background-color: black;
+    height:300px;
+    width:auto;
+    position:absolute;
+    top:1000px;
+    display:flex;
+    flex-direction:column;  
+    flex-wrap: wrap;   
+}
+
+#pineappleContainer img {
+    height:100%;
+    width:auto;
+    display:flex;
+    order:3;
+}
+
+h1:nth-child(2) {
+    color:white;
+    font-family: Helvetica,san-serif;
+    font-size: 25px;
+    font-style: bold;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 25px;
+    text-decoration: none;
+    display:flex;
+    align-content: flex-end;
+    order:1;
+} 
+
+h2:last-child {
+    color:white;
+    font-size: 15px;
+    margin-left:30px;
+    font-style:unset;
+    padding-top:10px;
+    padding-right: 10px;
+    font-family: Helvetica,san-serif;
+    text-decoration: none;
+    align-content:flex-end;
+    order:2;
+}
+
+#pastaContainer {
+    background-color: black;
+    height:300px;
+    width:auto;
+    position:absolute;
+    top:1300px;
+    display:flex;
+    flex-direction:column;  
+    flex-wrap: wrap;   
+}   
+
+#pastaContainer img {
+    height:100%;
+    width:auto;
+    display:flex;
+
+}
+
+h1:nth-child(2) {
+    color:white;
+    font-family: Helvetica,san-serif;
+    font-size: 25px;
+    font-style: bold;
+    margin-right: 30px;
+    padding-top: 25px;
+    text-decoration: none;
+    display:flex;
+   
+} 
+
+h2:last-child {
+    color:white;
+    font-size: 15px;
+    font-style:unset;
+    padding-top:10px;
+    padding-right: 10px;
+    font-family: Helvetica,san-serif;
+    text-decoration: none;
+    display:flex;
+}
